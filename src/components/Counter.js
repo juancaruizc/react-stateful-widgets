@@ -52,13 +52,13 @@ export default function Counter() {
   const [count, setCount] = useState(0)
 
   const increment = () => {
-    return setCount(count + 1)
+     setCount(count + 1)
   };
   const decrement = () => {
-    return setCount(count - 1)
+     setCount(count - 1)
   };
   const reset = () => {
-    return setCount(count - count)
+     setCount(count - count)
   };
 
   const style = {
